@@ -28,7 +28,7 @@ const Navbar = () => {
       <li>
     <a class=" normal-case text-xl"><img src={logo} className="w-20"  alt=""/></a>
       </li>
-      <li><a>1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301</a></li>
+      <li><a className='text-sm font-bold'>1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301</a></li>
     </ul>
   </div>
 
