@@ -18,12 +18,13 @@ import pic3 from '../images/frames/5.png'
 const Banner = () => {
   return (
     <div class="grid lg:grid-cols-2">
-      <div className="hidden lg:block h-max">
-        <div
-          class="hero min-h-screen"
-          style={{
+      <div className="hidden lg:block h-max min-h-screen" style={{
             backgroundImage: " url(https://placeimg.com/1000/800/arch)",
-          }}
+            
+          }}>
+        <div
+          class="hero "
+          
         >
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
@@ -41,7 +42,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <h1 class="mb-5 text-3xl text-center font-bold">
           What are you looking for?
         </h1>
