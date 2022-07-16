@@ -14,6 +14,10 @@ import Electricians from "./Components/MoreCards/Electricians";
 import Plumbers from "./Components/MoreCards/Plumbers";
 import Carpenters from "./Components/MoreCards/Carpenters";
 import WhyChooseUs from "./Components/WhyChooseUs";
+import WhatOurCustomersSay from "./Components/WhatOurCustomersSay";
+import hassleFree from '../src/images/HassleFree.png'
+import refer from '../src/images/Refer.png'
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
@@ -32,6 +36,10 @@ function App() {
       <Plumbers/>
       <Carpenters/>
       <WhyChooseUs/>
+      <WhatOurCustomersSay/>
+      <img src={refer} alt="refer" className="rounded-xl mx-auto hidden lg:block"/>
+      <img src={hassleFree} alt="trending item" className="rounded-xl mx-auto mt-10"/>
+      <Footer/>
     </div>
   );
 }
